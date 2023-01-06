@@ -295,7 +295,6 @@ function updates2slack_options_page()
     ?>
 
  <div>
-  <?php screen_icon(); ?>
   <h2>Updates to Slack Settings</h2>
   <form method="post" action="options.php">
   <?php settings_fields('updates2slack_options_group'); ?>
